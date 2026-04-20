@@ -6,7 +6,6 @@ Skill-Pakete für Claude Desktop zur Unterstützung der KIO Toolbox.
 
 | Paket | Skills | Download |
 |-------|--------|----------|
-| **[Strategy Canvas — Thinking Time](strategy-canvas/)** | 2 Skills | [strategy-canvas-alle-skills.zip](https://github.com/kio-rocks/kio-thinking-time/raw/main/strategy-canvas/dist/strategy-canvas-alle-skills.zip) |
 
 ## Einrichtung
 
