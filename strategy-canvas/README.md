@@ -1,37 +1,31 @@
-# Strategy Canvas — Modul
+# Strategy Canvas — Thinking Time
 
-> Kernkompetenz, Jahresplan und weitere Strategie-Elemente.
-> Skills folgen in `skills/`.
+Teilnehmer-Modul für strategische Thinking-Time-Workshops (Kernkompetenz, 1-Jahres-Plan). Führt Führungsteams durch TT-Phasen (Fragen im Einzelchat), Synthesis-Phasen (Framework-Strukturierung) und Hero-Phasen (DOCX-Erzeugung). Moderator nutzt separates claude-chat/thinking-time/ Projekt für Moderationsanleitungen.
 
----
+## Download
 
-## Was dieses Modul liefert
+**[Alle Skills herunterladen (2 Skills)](https://github.com/kio-rocks/kio-thinking-time/raw/main/strategy-canvas/dist/strategy-canvas-alle-skills.zip)**
 
-Das Strategy Canvas Modul übersetzt strategische Fragen eines Führungsteams in klare, umsetzbare Artefakte. Es verwendet die Thinking-Time-Methodik: schriftliche Fokuszeit, Team-Diskussion und KI-Strukturierung.
+Oder einzeln:
 
-**Aktuell verfügbare Skills:** folgen.
+| Skill | Download |
+|-------|----------|
+| `core-competency` | [core-competency.skill](https://github.com/kio-rocks/kio-thinking-time/raw/main/strategy-canvas/dist/core-competency.skill) |
+| `annual-plan` | [annual-plan.skill](https://github.com/kio-rocks/kio-thinking-time/raw/main/strategy-canvas/dist/annual-plan.skill) |
 
-**Shared Knowledge:** `shared/` enthält die skill-übergreifenden Wissens-Dateien, die von jedem Skill-Prompt referenziert werden.
+## Einrichtung
 
----
+1. In Claude ein neues Projekt anlegen
+2. `projektanweisung.md` als Projektanweisung einfügen
+3. Alle `.skill`-Dateien unter *Fähigkeit hochladen* hinzufügen
 
-## Struktur
+Claude führt ab hier durch den Rest.
 
-```
-strategy-canvas/
-├── README.md             (dieses Dokument)
-├── projekt.yaml          (Modul-Manifest)
-├── projektanweisung.md   (Claude Desktop Setup + Phasen-Ablauf)
-├── shared/               (Skill-übergreifendes Wissen)
-│   ├── thinking-time-principles.md
-│   ├── glossary.md
-│   └── kio-os-core-values.md
-├── skills/               (Skills folgen)
-└── dist/                 (Build-Artefakte, gitignored)
-```
+## Skills
 
----
-
-## Setup
-
-Siehe `projektanweisung.md` für die vollständige Claude Desktop Einrichtung.
+| Skill | Was er tut |
+|-------|-----------|
+| `core-competency` | Kernkompetenz-Workshop: 8 Fragen zu Herausforderungen, 5 Kategorien für Kernkompetenzen, Synthese zu 5 Kernkompetenzen und THE ONE (Strategy Canvas), Hero-DOCX Core-Competency-Sheet.
+ |
+| `annual-plan` | 1-Jahres-Plan-Workshop: 3 Fragen zum Thematischen Ziel, Synthese zu 3 Jahresplänen (Team-Input), Synthese zum THE ONE Plan, Hero-DOCX Annual-Plan-Sheet.
+ |

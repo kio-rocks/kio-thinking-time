@@ -1,0 +1,51 @@
+name: strategy-canvas
+title: "Strategy Canvas — Thinking Time"
+description: >
+  Teilnehmer-Modul für strategische Thinking-Time-Workshops (Kernkompetenz,
+  1-Jahres-Plan). Führt Führungsteams durch TT-Phasen (Fragen im Einzelchat),
+  Synthesis-Phasen (Framework-Strukturierung) und Hero-Phasen (DOCX-Erzeugung).
+  Moderator nutzt separates claude-chat/thinking-time/ Projekt für
+  Moderationsanleitungen.
+version: 0.1.0
+toolbox_ref: strategy-canvas
+status: active
+maintainer: kio.rocks
+
+type: master
+domain: thinking-time
+platform: claude-desktop
+delivery_format: project
+
+setup:
+  method: manual
+  steps:
+    - "Projekt in Claude Desktop anlegen"
+    - "projektanweisung.md als Projektanweisung einfügen"
+    - "Alle Skill-ZIPs aus dist/ via 'Fähigkeit hochladen' hochladen"
+    - "Teammitglieder zum Projekt einladen"
+
+requires_data: []
+
+skills:
+  - name: core-competency
+    output_type: workflow
+    version: "0.1.0"
+    source: docs/product/sources/thinking-time-skill-ecosystem/skills/core-competency/
+    description: >
+      Kernkompetenz-Workshop: 8 Fragen zu Herausforderungen, 5 Kategorien für
+      Kernkompetenzen, Synthese zu 5 Kernkompetenzen und THE ONE (Strategy
+      Canvas), Hero-DOCX Core-Competency-Sheet.
+  - name: annual-plan
+    output_type: workflow
+    version: "0.1.0"
+    source: docs/product/sources/thinking-time-skill-ecosystem/skills/annual-plan/
+    description: >
+      1-Jahres-Plan-Workshop: 3 Fragen zum Thematischen Ziel, Synthese zu 3
+      Jahresplänen (Team-Input), Synthese zum THE ONE Plan, Hero-DOCX
+      Annual-Plan-Sheet.
+
+sources:
+  skills_ssot: docs/product/sources/thinking-time-skill-ecosystem/skills/
+  shared_knowledge_ssot: docs/product/sources/thinking-time-skill-ecosystem/knowledge/
+  build_script: scripts/build-thinking-time-strategy-canvas-skills.py
+  publish_script: scripts/build-chat-skills.sh --target thinking-time
