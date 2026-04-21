@@ -1,6 +1,6 @@
 # Strategy Canvas — Thinking Time
 
-Teilnehmer-Modul für strategische Thinking-Time-Workshops (Kernkompetenz, 1-Jahres-Plan). Führt Führungsteams durch TT-Phasen (Fragen im Einzelchat), Synthesis-Phasen (Framework-Strukturierung) und Hero-Phasen (DOCX-Erzeugung). Moderator nutzt separates claude-chat/thinking-time/ Projekt für Moderationsanleitungen.
+Teilnehmer-Modul für strategische Thinking-Time-Workshops (Kernkompetenz, 1-Jahres-Plan). Führt Führungsteams durch TT-Phasen (Fragen im Einzelchat), Synthesis-Phasen (Framework-Strukturierung) und Hero-Phasen (DOCX-Erzeugung). Der KIO Champion nutzt das separate claude-chat/thinking-time/ Projekt für die Moderationsanleitungen.
 
 ## Download
 
@@ -11,7 +11,7 @@ Oder einzeln:
 | Skill | Download |
 |-------|----------|
 | `core-competency` | [core-competency.skill](https://github.com/kio-rocks/kio-thinking-time/raw/main/strategy-canvas/dist/core-competency.skill) |
-| `annual-plan` | [annual-plan.skill](https://github.com/kio-rocks/kio-thinking-time/raw/main/strategy-canvas/dist/annual-plan.skill) |
+| `one-year-plan` | [one-year-plan.skill](https://github.com/kio-rocks/kio-thinking-time/raw/main/strategy-canvas/dist/one-year-plan.skill) |
 
 ## Einrichtung
 
@@ -27,5 +27,5 @@ Claude führt ab hier durch den Rest.
 |-------|-----------|
 | `core-competency` | Kernkompetenz-Workshop: 8 Fragen zu Herausforderungen, 5 Kategorien für Kernkompetenzen, Synthese zu 5 Kernkompetenzen und THE ONE (Strategy Canvas), Hero-DOCX Core-Competency-Sheet.
  |
-| `annual-plan` | 1-Jahres-Plan-Workshop: 3 Fragen zum Thematischen Ziel, Synthese zu 3 Jahresplänen (Team-Input), Synthese zum THE ONE Plan, Hero-DOCX Annual-Plan-Sheet.
+| `one-year-plan` | 1-Jahres-Plan-Workshop: 3 Fragen zum Thematischen Ziel, Synthese zu 3 Jahresplänen (Team-Input), Synthese zum THE ONE Plan, Hero-DOCX Annual-Plan-Sheet.
  |
