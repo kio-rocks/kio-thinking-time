@@ -55,3 +55,9 @@ Alle Skills referenzieren das Shared Knowledge:
 - `shared/thinking-time-principles.md` — Kernregeln der Methodik (P1–P13)
 - `shared/glossary.md` — Begriffsdefinitionen (KIO OS, Thinking Time, Hero, Synthese)
 - `shared/kio-os-core-values.md` — Werte-Rahmen (Honor Humanity, Spinning the Wheel, Expanding the Box, Solid Foundation)
+
+---
+
+## Feedback geben
+
+Feedback zu Thinking-Time-Skills läuft über ein eigenes Meta-Projekt: [`kio-rocks/kio-thinking-time/feedback/`](https://github.com/kio-rocks/kio-thinking-time/tree/main/feedback). Installiere es einmalig in Claude Desktop neben diesem Projekt. Dort sagst du dann *"Feedback zu one-year-plan Phase 2"* und bekommst einen vorgefüllten GitHub-Issue-Link zurück.
