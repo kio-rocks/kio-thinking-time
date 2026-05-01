@@ -1,6 +1,6 @@
-# Projektanweisung — KIO OS Foundations (Shared Library)
+# Projektanweisung — KIO Foundations (Shared Library)
 
-> Universelle Read-Only-Reference-Skills, die in beliebigen Claude Desktop Projekten zusätzlich zu Workflow-Skills (one-year-plan, core-competency etc.) geladen werden, um die KIO-OS-Foundations als Wissensbasis bereitzustellen.
+> Universelle Read-Only-Reference-Skills, die in beliebigen Claude Desktop Projekten zusätzlich zu Workflow-Skills (one-year-plan, core-competency etc.) geladen werden, um die KIO-Foundations als Wissensbasis bereitzustellen.
 
 ---
 
@@ -12,13 +12,13 @@ Aktueller Inhalt (1 Skill):
 
 | Skill | Zweck |
 |-------|-------|
-| `kio-os-foundations` | Spiegelt die drei KIO-Säulen-Indices (Modell, Prozess, Toolbox) und alle 20 Tool-Foundations als Read-Only-Wissensbasis |
+| `kio-foundations` | Spiegelt die drei KIO-Säulen-Indices (Modell, Prozess, Toolbox) und alle 20 Tool-Foundations als Read-Only-Wissensbasis |
 
 ---
 
 ## Setup
 
-1. Im Ziel-Projekt (z.B. Strategy Canvas) zusätzlich zu den Workflow-Skills auch `kio-os-foundations.skill` aus `dist/` via „Fähigkeit hochladen" einfügen.
+1. Im Ziel-Projekt (z.B. Strategy Canvas) zusätzlich zu den Workflow-Skills auch `kio-foundations.skill` aus `dist/` via „Fähigkeit hochladen" einfügen.
 2. Im Projektchat ist die Foundation dann als implizite Wissensbasis verfügbar — Workflow-Skills greifen darauf zurück, statt eigene Foundations-Mirrors zu pflegen.
 
 ---
@@ -26,7 +26,7 @@ Aktueller Inhalt (1 Skill):
 ## Architektur
 
 - **SSOT:** `knowledge/kio-modell/`, `knowledge/kio-prozess/`, `knowledge/kio-toolbox/` (im Repo)
-- **Mirror:** `kio-os-foundations/knowledge.md` zwischen `<!-- BEGIN MIRROR -->` und `<!-- END MIRROR -->`
+- **Mirror:** `kio-foundations/knowledge.md` zwischen `<!-- BEGIN MIRROR -->` und `<!-- END MIRROR -->`
 - **Sync:** `scripts/sync-knowledge-mirrors.py`
 - **Build:** `bash scripts/build-chat-skills.sh _shared --target thinking-time`
 

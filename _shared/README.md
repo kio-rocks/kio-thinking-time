@@ -1,6 +1,6 @@
-# KIO OS Foundations — Shared Skill Library
+# KIO Foundations — Shared Skill Library
 
-Shared Skill-Bibliothek für KIO Thinking Time Master-Projekte. Enthält universelle Reference-Skills, die in jedes Claude Desktop Projekt zusätzlich zu den Workflow-Skills (one-year-plan, core-competency, ...) hochgeladen werden, um KIO-OS-Foundations als Read-Only-Wissensbasis bereitzustellen.
+Shared Skill-Bibliothek für KIO Thinking Time Master-Projekte. Enthält universelle Reference-Skills, die in jedes Claude Desktop Projekt zusätzlich zu den Workflow-Skills (one-year-plan, core-competency, ...) hochgeladen werden, um KIO-Foundations als Read-Only-Wissensbasis bereitzustellen.
 
 ## Download
 
@@ -10,7 +10,7 @@ Oder einzeln:
 
 | Skill | Download |
 |-------|----------|
-| `kio-os-foundations` | [kio-os-foundations.skill](https://github.com/kio-rocks/kio-thinking-time/raw/main/_shared/dist/kio-os-foundations.skill) |
+| `kio-foundations` | [kio-foundations.skill](https://github.com/kio-rocks/kio-thinking-time/raw/main/_shared/dist/kio-foundations.skill) |
 
 ## Einrichtung
 
@@ -24,5 +24,5 @@ Claude führt ab hier durch den Rest.
 
 | Skill | Was er tut |
 |-------|-----------|
-| `kio-os-foundations` | Spiegelt die kanonische KIO-OS-Struktur 1:1 als Read-Only-Wissensbasis: drei Säulen-Indices (kio-modell, kio-prozess, kio-toolbox) plus alle 20 Tool-Foundations. Inhalte werden vollständig aus knowledge/ via knowledge-sources.yaml gespiegelt — keine eigenen Inhalte, keine manuellen Edits am Mirror-Block.
+| `kio-foundations` | Spiegelt die kanonische KIO-OS-Struktur 1:1 als Read-Only-Wissensbasis: drei Säulen-Indices (kio-modell, kio-prozess, kio-toolbox) plus alle 20 Tool-Foundations. Inhalte werden vollständig aus knowledge/ via knowledge-sources.yaml gespiegelt — keine eigenen Inhalte, keine manuellen Edits am Mirror-Block.
  |
