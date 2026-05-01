@@ -1,6 +1,6 @@
 # Chat-Protokoll — Friction Documentation Tool
 
-Isoliertes Werkzeug zum Export von Claude-Desktop-Friction-Sessions als strukturierte Markdown-Protokolle (Schema 2 — bias-getrennt). Buddy schreibt Roh-Daten und Buddy-Hypothese in getrennten Top-Level-Sektionen, damit Claude Code beim Konsum die Hypothese erst nach eigener Analyse als Sanity-Check liest. Tool-übergreifend einsetzbar (one-year-plan, core-competency, rocks, cfs, ...). Drop-Ziel der erzeugten Protokolle: kio-thinking-time/_protocols/.
+Isoliertes Werkzeug zum Export von Claude-Desktop-Friction-Sessions als strukturierte Markdown-Protokolle (Schema 2 — bias-getrennt). Buddy schreibt Roh-Daten und Buddy-Hypothese in getrennten Top-Level-Sektionen, damit Claude Code beim Konsum die Hypothese erst nach eigener Analyse als Sanity-Check liest. Tool-übergreifend einsetzbar (kio-one-year-plan, kio-core-competency, rocks, cfs, ...). Drop-Ziel der erzeugten Protokolle: kio-thinking-time/_protocols/.
 
 ## Download
 

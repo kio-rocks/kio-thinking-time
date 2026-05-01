@@ -17,7 +17,7 @@ Dieses Projekt läuft **neben** deinen Workshop-Projekten (z.B. `strategy-canvas
 
 ## Zweck
 
-Dieses Meta-Projekt nimmt dein Feedback zu **jedem** Thinking-Time-Skill entgegen — strategy-canvas (one-year-plan, core-competency), und künftige Module. Du gibst die Beobachtung in natürlicher Sprache an, der Skill strukturiert (Modul / Skill / Phase / Kategorie / Beschreibung) und generiert einen **pre-filled GitHub-Issue-Link**.
+Dieses Meta-Projekt nimmt dein Feedback zu **jedem** Thinking-Time-Skill entgegen — strategy-canvas (kio-one-year-plan, kio-core-competency), und künftige Module. Du gibst die Beobachtung in natürlicher Sprache an, der Skill strukturiert (Modul / Skill / Phase / Kategorie / Beschreibung) und generiert einen **pre-filled GitHub-Issue-Link**.
 
 Ein Klick, Submit im Browser — fertig.
 
@@ -27,7 +27,7 @@ Ein Klick, Submit im Browser — fertig.
 
 | Du sagst … | Claude tut … |
 |---|---|
-| *"Feedback zu one-year-plan Phase 2"* | → `feedback` → Link für `strategy-canvas/one-year-plan` |
+| *"Feedback zu kio-one-year-plan Phase 2"* | → `feedback` → Link für `strategy-canvas/kio-one-year-plan` |
 | *"Bug im Jahresplan-Hero-DOCX"* | → `feedback` → Link mit Kategorie `hero-output` |
 | *"Idee für die Moderation der Kernkompetenz"* | → `feedback` → Link mit Kategorie `idee` |
 | *"Die Frage 3 in Phase 1 ist unklar"* | → `feedback` → Link mit Kategorie `frage-formulierung` |

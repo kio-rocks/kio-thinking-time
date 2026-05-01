@@ -1,6 +1,6 @@
 # Projektanweisung — KIO Foundations (Shared Library)
 
-> Universelle Read-Only-Reference-Skills, die in beliebigen Claude Desktop Projekten zusätzlich zu Workflow-Skills (one-year-plan, core-competency etc.) geladen werden, um die KIO-Foundations als Wissensbasis bereitzustellen.
+> Universelle Read-Only-Reference-Skills, die in beliebigen Claude Desktop Projekten zusätzlich zu Workflow-Skills (kio-one-year-plan, kio-core-competency etc.) geladen werden, um die KIO-Foundations als Wissensbasis bereitzustellen.
 
 ---
 

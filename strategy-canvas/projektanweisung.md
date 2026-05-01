@@ -60,4 +60,4 @@ Alle Skills referenzieren das Shared Knowledge:
 
 ## Feedback geben
 
-Feedback zu Thinking-Time-Skills läuft über ein eigenes Meta-Projekt: [`kio-rocks/kio-thinking-time/feedback/`](https://github.com/kio-rocks/kio-thinking-time/tree/main/feedback). Installiere es einmalig in Claude Desktop neben diesem Projekt. Dort sagst du dann *"Feedback zu one-year-plan Phase 2"* und bekommst einen vorgefüllten GitHub-Issue-Link zurück.
+Feedback zu Thinking-Time-Skills läuft über ein eigenes Meta-Projekt: [`kio-rocks/kio-thinking-time/feedback/`](https://github.com/kio-rocks/kio-thinking-time/tree/main/feedback). Installiere es einmalig in Claude Desktop neben diesem Projekt. Dort sagst du dann *"Feedback zu kio-one-year-plan Phase 2"* und bekommst einen vorgefüllten GitHub-Issue-Link zurück.

@@ -10,8 +10,8 @@ Oder einzeln:
 
 | Skill | Download |
 |-------|----------|
-| `core-competency` | [core-competency.skill](https://github.com/kio-rocks/kio-thinking-time/raw/main/strategy-canvas/dist/core-competency.skill) |
-| `one-year-plan` | [one-year-plan.skill](https://github.com/kio-rocks/kio-thinking-time/raw/main/strategy-canvas/dist/one-year-plan.skill) |
+| `kio-kio-core-competency` | [kio-kio-core-competency.skill](https://github.com/kio-rocks/kio-thinking-time/raw/main/strategy-canvas/dist/kio-kio-core-competency.skill) |
+| `kio-kio-one-year-plan` | [kio-kio-one-year-plan.skill](https://github.com/kio-rocks/kio-thinking-time/raw/main/strategy-canvas/dist/kio-kio-one-year-plan.skill) |
 
 ## Einrichtung
 
@@ -25,7 +25,7 @@ Claude führt ab hier durch den Rest.
 
 | Skill | Was er tut |
 |-------|-----------|
-| `core-competency` | Kernkompetenz-Workshop: 8 Fragen zu Herausforderungen, 5 Kategorien für Kernkompetenzen, Synthese zu 5 Kernkompetenzen und THE ONE (Strategy Canvas), Hero-DOCX Core-Competency-Sheet.
+| `kio-kio-core-competency` | Kernkompetenz-Workshop: 8 Fragen zu Herausforderungen, 5 Kategorien für Kernkompetenzen, Synthese zu 5 Kernkompetenzen und THE ONE (Strategy Canvas), Hero-DOCX Core-Competency-Sheet.
  |
-| `one-year-plan` | 1-Jahres-Plan-Workshop: 3 Fragen zum Thematischen Ziel, Synthese zu 3 Jahresplänen (Team-Input), Synthese zum THE ONE Plan, Hero-DOCX Annual-Plan-Sheet.
+| `kio-kio-one-year-plan` | 1-Jahres-Plan-Workshop: 3 Fragen zum Thematischen Ziel, Synthese zu 3 Jahresplänen (Team-Input), Synthese zum THE ONE Plan, Hero-DOCX Annual-Plan-Sheet.
  |

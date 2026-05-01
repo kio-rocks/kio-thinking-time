@@ -1,6 +1,6 @@
 # KIO Foundations — Shared Skill Library
 
-Shared Skill-Bibliothek für KIO Thinking Time Master-Projekte. Enthält universelle Reference-Skills, die in jedes Claude Desktop Projekt zusätzlich zu den Workflow-Skills (one-year-plan, core-competency, ...) hochgeladen werden, um KIO-Foundations als Read-Only-Wissensbasis bereitzustellen.
+Shared Skill-Bibliothek für KIO Thinking Time Master-Projekte. Enthält universelle Reference-Skills, die in jedes Claude Desktop Projekt zusätzlich zu den Workflow-Skills (kio-one-year-plan, kio-core-competency, ...) hochgeladen werden, um KIO-Foundations als Read-Only-Wissensbasis bereitzustellen.
 
 ## Download
 
